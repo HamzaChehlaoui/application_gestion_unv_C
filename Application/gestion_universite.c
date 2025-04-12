@@ -13,8 +13,7 @@ struct informations{
     char nom[100];
     char prenom[100];
     int departement;
-    float note_generale;
-
+    float note_generale; 
 }infor[1000];
 
 struct date_de_naissance{
