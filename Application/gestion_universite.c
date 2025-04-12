@@ -14,7 +14,6 @@ struct informations{
     char prenom[100];
     int departement;
     float note_generale;
-
 }infor[1000];
 
 struct date_de_naissance{
