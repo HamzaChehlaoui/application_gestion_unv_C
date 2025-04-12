@@ -8,7 +8,7 @@
 #define ANSI_COLOR_CAYAN "\x1b[36m"
 
 struct informations{
-
+    
     int numero_unique;
     char nom[100];
     char prenom[100];
