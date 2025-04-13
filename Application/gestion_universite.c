@@ -98,16 +98,16 @@ void menu_depart(){
 
 //entrer et verifier departement
 void departement(int i){
-  do
-  {
-     menu_depart();
+    do
+    {
+    menu_depart();
     printf("Entrer votre numero de departement : ");
     scanf("%d",&infor[i].departement);
     if(infor[i].departement<1||infor[i].departement>5){
         printf("Votre numero de departement n'existe pas .\n");
     }
-  } while (infor[i].departement<1||infor[i].departement>5);
-  
+    } while (infor[i].departement<1||infor[i].departement>5);
+
 }
 //entrer et verifier note general
 void note_general(int i){
