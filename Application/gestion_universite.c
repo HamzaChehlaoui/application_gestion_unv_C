@@ -78,8 +78,8 @@ void date_naissanse(int i){
             else
             {
                 if(date[i].jour>28){
-                     printf("La date que vous aves saisie est incorrecte \n");
-                     x=1;
+                    printf("La date que vous aves saisie est incorrecte \n");
+                    x=1;
                 }
             }
     }
