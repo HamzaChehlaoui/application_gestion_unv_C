@@ -127,10 +127,10 @@ void Ajouter_etudiant(){
     int numero,i,x;
     do
     {
-         printf("Veuillez entrer le nombre d'etudiants que vous souhaitez ajouter : ");
+        printf("Veuillez entrer le nombre d'etudiants que vous souhaitez ajouter : ");
         scanf("%d",&numero);
         if(numero>1000){
-             printf("Ce numero n'ast pas disponible \n");
+            printf("Ce numero n'ast pas disponible \n");
         }
     } while (numero>1000);
     for(i=0;i<numero;i++){
